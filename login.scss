@@ -15,12 +15,12 @@
 
 .username,
 .password {
-  &:not(.mdc-text-field--invalid) {
-    @include mdc-text-field-label-color(on-primary);
-  }
-  &.mdc-text-field--focused:not(.mdc-text-field--invalid) {
-    @include mdc-text-field-label-color(on-primary);
-  }
+  // &:not(.mdc-text-field--invalid) {
+  //   @include mdc-text-field-label-color(on-primary);
+  // }
+  // &.mdc-text-field--focused:not(.mdc-text-field--invalid) {
+  //   @include mdc-text-field-label-color(on-primary);
+  // }
 
   display: flex;
   margin: 20px auto;
